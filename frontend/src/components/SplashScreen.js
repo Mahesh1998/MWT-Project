@@ -31,9 +31,9 @@ export default function SplashScreen({ finishLoading }) {
     }, [])
 
     return (
-        <div className='flex h-screen items-center justify-center bg-aiesec-blue overflow-hidden'>
+        <div className='flex h-screen items-center justify-center bg-dark overflow-hidden '>
             {/* <img id="logo" src={Logo} alt="animation" width={60} /> */}
-            <div id="logo" className='d-flex flex-column align-items-center justify-content-center vh-100'>
+            <div id="logo" className='d-flex flex-column align-items-center justify-content-center bg-dark text-white vh-100'>
                 <div>
                     <h1>Welcome</h1>
                 </div>
